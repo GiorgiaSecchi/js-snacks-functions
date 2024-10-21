@@ -5,6 +5,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+const getInitials = (array) => {
+    let initials = []
+    for (let i = 0; i < array.length; i++) 
+}
+
 
 // Invoca la funzione qui e stampa il risultato in console
 
