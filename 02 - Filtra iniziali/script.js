@@ -2,12 +2,14 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
-
 // Dichiara la funzione qui.
 
+const arrayFilter = (word, letter) => {
+  return word.filter((word) => word.startsWith(letter));
+};
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+newArray = arrayFilter(names, "A");
+console.log(newArray);
 
 //Risultato atteso se si passa la lettera A: ["Anna", "Adele", "Alessandra"]
