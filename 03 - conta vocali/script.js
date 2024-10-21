@@ -5,12 +5,12 @@ const word = "javascript";
 // Dichiara la funzione qui.
 const vowelWord = (string) => {
   const vowel = "aeiou";
-  let result = "";
+  let result = [];
   for (let i = 0; i < string.length; i++)
     if (vowel.includes(string[i])) {
-      result += string[i];
+      result += string[i] + ",";
     }
-  return result;
+  return result.slice(0, -1);
 };
 
 test = vowelWord(word);
