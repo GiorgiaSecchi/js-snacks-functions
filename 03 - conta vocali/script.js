@@ -14,7 +14,8 @@ const vowelWord = (string) => {
     }
   const vowelNumb = result.length;
   return (
-    string + "\n" + "Numero vocali:" + " " + vowelNumb + "\n" + result.join(",")
+    // string + "\n" + "Numero vocali:" + " " + vowelNumb + "\n" + result.join(",")
+    ` ${string} \n Numero di vocali: ${vowelNumb} \n ${result.join(",")} `
   );
 };
 
